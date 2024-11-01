@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+header{
+    padding: 30px 5%;
+    position: fixed;
+    background-color: white;
+    width:100%;
+}
+
+header>*{
+    display: inline-block;
+    width: 450px;
+}
+
+.art2{
+    display: block;
+    margin: 5% 10px;
+}
+
+.div2{
+    display: flex;
+    margin: 1% 2px;
+}
+
+.div3{
+    display: inline-block;
+    margin: 1% 4px;
+    padding-left: 5px;
+}
+
+.div4{
+    display:flex;
+    margin: 1% 4px;
+}
+
+.divnews{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: #304EEC;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pustota{
+    width: 29%;
+}
+
+.shapka{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 17px;
+}
+
+.picture{
+    width: 1500px;
+    height: 850px;
+    margin-top: 120px;
+}
+
+.img2{
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img3{
+    width: 358px;
+    height: 203px;
+    border-radius: 10px;
+}
+
+.img4{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.data{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #304EEC;
+    padding: 30px 5%;
+}
+
+h1:hover {
+    animation: color-change 3s infinite; 
+}
+
+@keyframes color-change {
+    0% {
+      color: #304EEC;
+    }
+    
+    100% {
+      color: #304EEC;
+    }
+}
+
+a:hover {
+    animation: color-change 3s infinite; 
+}
+
+@keyframes color-change {
+    0% {
+      color: #0d2391;
+    }
+    
+    100% {
+      color: #0d2391;
+    }
+}
+
+/* news.html */
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.news__img{
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.news__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin: 30px 0;
+}
+
+.news__text_bottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin: 30px 0;
+    margin-bottom: 120px;
+}
+
+.news_text_header{
+    margin-top: 120px;
+}
+/* news.html */
